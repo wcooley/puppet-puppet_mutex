@@ -35,13 +35,13 @@ Examples
 To ensure that `account::ldap` and `account::local` cannot be both declared
 at the same time, declare the same puppet_mutex in both classes.
 
-  class account::ldap {
-    puppet_mutex { 'user-account': }
-  }
+    class account::ldap {
+      puppet_mutex { 'user-account': }
+    }
 
-  class account::local {
-    puppet_mutex { 'user-account': }
-  }
+    class account::local {
+      puppet_mutex { 'user-account': }
+    }
 
 Author
 ------
