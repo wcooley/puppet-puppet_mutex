@@ -1,10 +1,10 @@
 puppet_mutex
 ============
 
-Do-nothing define to implement clearly express and enforce mutal exclusivity
-between classes or defines.
+Do-nothing define to clearly express and enforce mutal exclusivity between
+classes or defines.
 
-Sometimes one has classes which while otherwise unrelated should never both
+Sometimes one has classes which, while otherwise unrelated, should never both
 be declared for the same host. For example, one generally cannot manage local
 accounts while LDAP is configured for managing accounts. There is no obvious
 error that this should be so, except that the `useradd` provider for the
@@ -12,12 +12,13 @@ error that this should be so, except that the `useradd` provider for the
 everything else will work, however, so noticing the error requires looking
 for it.
 
-With the same `puppet_mutex` resource declared in both classes, the catalog
-will fail to compile and moreover the intention that the two classes should
-never both be declared is clearly expressed.
+With a `puppet_mutex` with the same name declared in both classes, the catalog
+will fail to compile so mistakes are easier to notice.Moreover, a declaration
+with this define clearly expresses the intention that the two classes should
+never both be declare.
 
-Attempting to use the `defined` function is unreliable, as it is parse-order
-dependent.
+Attempting to use the `defined` function to enforce exclusivity is unreliable,
+as it is parse-order dependent and generally suggested against.
 
 Parameters
 ----------
