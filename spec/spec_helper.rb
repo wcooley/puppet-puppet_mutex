@@ -1,2 +1,3 @@
-require 'rspec-puppet'
+# encoding: UTF-8
+
 require 'puppetlabs_spec_helper/module_spec_helper'
