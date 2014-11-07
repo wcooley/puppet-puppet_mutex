@@ -1,6 +1,6 @@
 {
   "name": "wcooley-puppet_mutex",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Wil Cooley <wcooley@nakedape.cc>",
   "summary": "Do-nothing define to implement a mutex between classes, defines, etc.",
   "license": "Apache-2.0",
