@@ -1,8 +1,0 @@
-name    'wcooley-puppet_mutex'
-summary 'Do-nothing define to implement a mutex between classes, defines, etc.'
-version '0.1.0'
-source  'https://github.com/wcooley/puppet-puppet_mutex'
-author  'wcooley'
-license 'Apache License, Version 2.0'
-description 'Do-nothing define to implement a mutex between classes, defines, etc.'
-project_page 'https://github.com/wcooley/puppet-name_service'

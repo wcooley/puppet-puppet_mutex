@@ -1,0 +1,46 @@
+{
+  "name": "wcooley-puppet_mutex",
+  "version": "0.1.2",
+  "author": "Wil Cooley <wcooley@nakedape.cc>",
+  "summary": "Do-nothing define to implement a mutex between classes, defines, etc.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/wcooley/puppet-puppet_mutex",
+  "project_page": "https://github.com/wcooley/puppet-name_service",
+  "issues_url": "https://github.com/wcooley/puppet-puppet_mutex/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Fedora",
+    },
+    {
+      "operatingsystem": "RedHat",
+    },
+    {
+      "operatingsystem": "CentOS",
+    },
+    {
+      "operatingsystem": "Scientific",
+    },
+    {
+      "operatingsystem": "SLES",
+    },
+    {
+      "operatingsystem": "Debian",
+    },
+    {
+      "operatingsystem": "Ubuntu",
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=2.7.20 <4.0.0"
+    }
+  ],
+  "dependencies": [
+
+  ]
+}
